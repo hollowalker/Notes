@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="App">
+    <header class="App-header">
+        Notes
+    </header>
+    <main>
+        <div class="note__redactor__overlay" style="display: none;">
+        </div>
+        <div class="note__redactor" style="display: none;">
+            <div class="note__row">
+                <div class="note__row__header">
+                    <input type="hidden" name="id" value="" />
+                    <input class="note__row__header__item" name="name" type="text" value="Name" />
+                    <div class="note__row__header__tools">
+                        <div class="note__row__header__tool save_redactor">save</div>
+                        <div class="note__row__header__tool close_redactor">close</div>
+                    </div>
+                </div>
+                <textarea class="note__row__text" name="text">note text note text note text note text note text note text note text note text note text note text note text note text note text note text note text note text note text note text note text note text note text note text note text </textarea>
+            </div>
+        </div>
+
+        <div class="btn" id="add-note">Add note</div>
+
+        <div class="note__table">
+
+        </div>
+    </main>
+</div>
+</body>
+</html>
